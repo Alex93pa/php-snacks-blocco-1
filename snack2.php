@@ -30,7 +30,7 @@ if(strpos($email, '.', strpos($email, '@'))) {
     $result = false;
 }
 
-if(!is_int((int)($age))) {
+if(!is_numeric((int)($age))) {
     $result = false;
 }
 
